@@ -1,0 +1,61 @@
+.repoList{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+.searchContainer{
+    margin-top: 10px;
+}
+.searchContainer h1{
+    color: darkslategrey;
+}
+.searchContainer input{
+    font-size: x-large;
+    padding: 10px 5px;
+    margin: 10px;
+}
+.searchContainer button {
+    background-color: #72be7a;
+    color: whitesmoke;
+    border:none;
+    outline: none;
+    font-size: x-large;
+    padding: 10px;border-radius: 10px;
+}
+.searchContainer button:hover{
+    background-color: #408647;
+}
+
+.repoContainer{
+    background-color: lightgray;
+    margin: 10px;
+    border-radius: 10px;
+}
+.repoContainer:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+.repoContainer h2{
+    color: #2e6ad7;
+}
+.repoContainer p{
+    color:#838b93
+}
+.userDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.userDetails button{
+    font-size: x-large;
+}
+.userDetails h2{
+    color: Green;
+}

@@ -1,0 +1,28 @@
+.main{
+    width: fit-content;
+    margin: auto;
+}
+h1{
+    color: rgb(63, 60, 60);
+}
+.followerContainer {
+    display: flex;
+    width: 600px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    padding:20px;
+    background-color: rgb(203, 232, 241);
+}
+
+.followerContainer button{
+    border: none;
+    font-size: large;
+    background-color: #53dd47;
+    padding:10px;
+    color: white;
+}
+.followerContainer button:hover{
+    background-color:green;
+    cursor: pointer;
+}

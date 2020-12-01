@@ -1,0 +1,21 @@
+
+.RepoDetails{
+    width: fit-content;
+    padding:30px;
+    margin-top: 50px;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+h3{
+    color: grey;
+}
+.RepoDetails div{
+    display: flex;
+    align-items: center;
+}
+.RepoDetails h4{
+    color: green;
+    margin: 10px;
+}
